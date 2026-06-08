@@ -69,6 +69,11 @@
     background-color: #e44d26; 
     color: white;
 }
+.menu li a:hover,
+.menu li.active a {
+    background-color: #e44d26; /* Đổi màu nền thành cam đỏ */
+    color: #ffffff;
+}
 
 .timkiem {
     display: flex;
