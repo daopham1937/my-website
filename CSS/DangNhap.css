@@ -1,0 +1,118 @@
+body {  
+    /* Sử dụng chung ảnh nền giống trang đăng ký của bạn */
+    background-image: url('../image/Login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Khung hộp màu xanh giống hệt trang đăng ký của bạn */
+.khung {
+    background-color: cadetblue;
+    color: #07484d;
+    width: 100%;
+    max-width: 450px; 
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Định dạng cho mỗi nhóm nhập liệu giống trang đăng ký */
+.cot {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 15px; 
+}
+
+/* Chỉnh chữ tiêu đề nhỏ */
+label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Chỉnh ô nhập liệu và thêm bộ chọn chi tiết kèm hiệu ứng phát sáng mượt mà */
+.cot input[type="text"],
+.cot input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s ease; /* Hiệu ứng đổi màu mượt mà */
+}
+
+/* Khi người dùng click chuột vào ô nhập liệu sẽ tự phát sáng viền cam giống nhau */
+.cot input:focus {
+    border-color: rgb(23, 151, 255);
+    box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
+}
+
+/* Nhóm 2 nút bấm ở cuối form */
+.buttons {
+    display: flex;
+    gap: 25px; 
+    margin-top: 25px;
+}
+
+/* Định dạng chung cho 2 nút bấm bọc bằng flex */
+button {
+    flex :1;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* Nút Đăng Nhập màu cam */
+.submit {
+    background-color: orange; 
+    color: white;
+    border: none;
+}
+
+/* Hiệu ứng mờ nhẹ khi di chuột vào nút */
+button:hover {
+    opacity: 0.9;
+}
+
+.hotro{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+p {
+    margin : 0px;
+    color : #07484d;
+}
+
+a{
+    text-decoration: none;
+    color : orange;
+    font-size: bold;
+}
+
+a:hover{
+    color : blue;
+}

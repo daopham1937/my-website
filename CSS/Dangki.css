@@ -1,0 +1,89 @@
+
+body {  
+    background-image: url('../image/Login.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.khung {
+    background-color: cadetblue;
+    color: #07484d;
+    width: 100%;
+    max-width: 450px; /* Đã thu hẹp từ 700px xuống 450px để giống form đăng nhập */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);/* Thêm đổ bóng cho form nổi bật hơn */
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Định dạng cho mỗi nhóm nhập liệu (tên class cũ của bạn) */
+.cot {
+    display: flex;
+    flex-direction: column; /* Xếp label nằm trên ô input */
+    margin-bottom: 15px; /* Thêm khoảng cách giữa các ô */
+}
+
+/* Chỉnh chữ tiêu đề nhỏ (Họ tên, Ngày sinh...) */
+label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Chỉnh ô nhập liệu */
+input {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Nhóm 2 nút bấm ở cuối */
+.buttons {
+    display: flex;
+    gap: 25px; /* Khoảng cách 2 nút */
+    margin-top: 25px;
+}
+
+/* Định dạng chung cho 2 nút */
+button {
+    flex: 1; /* Hai nút to bằng nhau */
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+.back {
+    background-color: orange;
+    color : white;
+    border: none;
+}
+
+
+.submit {
+    background-color: orange; /* Màu đỏ */
+    color: white;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
