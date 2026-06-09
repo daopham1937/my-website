@@ -74,7 +74,7 @@ body.page-body {
     color: #ffffff;
 }
 
-/* --- Khung Tìm Kiếm (Search Box) --- */
+/* Search Box */
 .search-box {
     display: flex;
     align-items: center;

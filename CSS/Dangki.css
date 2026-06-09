@@ -20,10 +20,10 @@ body {
     background-color: cadetblue;
     color: #07484d;
     width: 100%;
-    max-width: 450px; /* Đã thu hẹp từ 700px xuống 450px để giống form đăng nhập */
+    max-width: 450px; 
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.5);/* Thêm đổ bóng cho form nổi bật hơn */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
 
 h2 {
@@ -31,21 +31,21 @@ h2 {
     margin-top: 0;
 }
 
-/* Định dạng cho mỗi nhóm nhập liệu (tên class cũ của bạn) */
+/* Định dạng cho mỗi nhóm nhập liệu */
 .cot {
     display: flex;
-    flex-direction: column; /* Xếp label nằm trên ô input */
-    margin-bottom: 15px; /* Thêm khoảng cách giữa các ô */
+    flex-direction: column; 
+    margin-bottom: 15px; 
 }
 
-/* Chỉnh chữ tiêu đề nhỏ (Họ tên, Ngày sinh...) */
+/* chữ tiêu đề nhỏ*/
 label {
     font-weight: bold;
     font-size: 14px;
     margin-bottom: 5px;
 }
 
-/* Chỉnh ô nhập liệu */
+/*ô nhập liệu */
 input {
     padding: 10px;
     border: 1px solid white;
@@ -53,16 +53,16 @@ input {
     font-size: 14px;
 }
 
-/* Nhóm 2 nút bấm ở cuối */
+/* nhóm 2 nút bấm ở cuối */
 .buttons {
     display: flex;
-    gap: 25px; /* Khoảng cách 2 nút */
+    gap: 25px; 
     margin-top: 25px;
 }
 
-/* Định dạng chung cho 2 nút */
+/* định dạng chung cho 2 nút */
 button {
-    flex: 1; /* Hai nút to bằng nhau */
+    flex: 1;
     padding: 12px;
     font-size: 16px;
     font-weight: bold;
@@ -78,7 +78,7 @@ button {
 
 
 .submit {
-    background-color: orange; /* Màu đỏ */
+    background-color: orange; 
     color: white;
     border: none;
 }

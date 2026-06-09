@@ -1,5 +1,5 @@
 body {  
-    /* Sử dụng chung ảnh nền giống trang đăng ký của bạn */
+    /* sử dụng chung ảnh nền giống trang đăng ký */
     background-image: url('../image/Login.jpg');
     background-size: cover;
     background-position: center;
@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
 }
 
-/* Khung hộp màu xanh giống hệt trang đăng ký của bạn */
+/* khung hộp màu xanh giống trang đăng ký */
 .khung {
     background-color: cadetblue;
     color: #07484d;
@@ -39,14 +39,14 @@ h2 {
     margin-bottom: 15px; 
 }
 
-/* Chỉnh chữ tiêu đề */
+/* chữ tiêu đề */
 label {
     font-weight: bold;
     font-size: 14px;
     margin-bottom: 5px;
 }
 
-/* Chỉnh ô nhập liệu và thêm bộ chọn chi tiết kèm hiệu ứng phát sáng mượt mà */
+/* ô nhập liệu và thêm bộ chọn chi tiết kèm hiệu ứng phát sáng mượt mà */
 .cot input[type="text"],
 .cot input[type="password"] {
     width: 100%;
@@ -59,7 +59,7 @@ label {
     transition: all 0.3s ease;
 }
 
-/* Khi người dùng click chuột vào ô nhập liệu sẽ tự phát sáng viền cam giống nhau */
+/* khi người dùng click chuột vào ô nhập liệu sẽ tự phát sáng viền cam giống nhau */
 .cot input:focus {
     border-color: rgb(23, 151, 255);
     box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
