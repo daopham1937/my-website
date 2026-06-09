@@ -81,10 +81,10 @@ registerForm.addEventListener('submit', function(event) {
 
     // Tạo object người dùng mới
     const newUser = {
-        id: Date.now(), // ID duy nhất
+        id: Date.now(), 
         fullname: fullname,
         email: email,
-        username: email.split('@')[0], // Tách username từ email
+        username: email.split('@')[0], 
         password: password,
         registerDate: new Date().toLocaleString()
     };
