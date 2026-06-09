@@ -1,4 +1,3 @@
-// ĐĂNG NHẬP
 // Lấy form đăng nhập
 const loginForm = document.getElementById('login');
 const emailInput = loginForm.querySelector('input[type="text"]');

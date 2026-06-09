@@ -31,12 +31,11 @@
 
 .slogan {
     font-size: 16px;
-    color: #e44d26; /* Màu cam đỏ nổi bật */
+    color: #e44d26; 
     font-weight: 600;
     font-style: italic;
 }
 
-/* css menu cac tac vu */
 .nav {
     display: flex;
     justify-content: space-between; 
@@ -71,7 +70,7 @@
 }
 .menu li a:hover,
 .menu li.active a {
-    background-color: #e44d26; /* Đổi màu nền thành cam đỏ */
+    background-color: #e44d26; 
     color: #ffffff;
 }
 
@@ -105,7 +104,7 @@
 }
 
 .login{
-    background-color: transparent; /* trung voi background de nhin ra sau */
+    background-color: transparent; 
     color : white;
     text-decoration: none;
     border: 2px solid #e44d26;
@@ -116,8 +115,6 @@
     transition: all 0.3s ease;
 }
 
-/* Css banner */
-
 .banner{
     display: flex;
     align-items: center;
@@ -127,7 +124,7 @@
 }
 
 .anh {
-    flex : 1; /* chia 1 nua */
+    flex : 1; 
 }
 
 .anh img{
@@ -168,7 +165,7 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /* khi bi co lai day cac the xuong */
+    flex-wrap: wrap;
     gap: 25px;
     margin-bottom: 50px;
 }
@@ -183,7 +180,7 @@
     gap:25px;
     margin-bottom:80px;
 }
-/* css cua the */
+
 .the{
     width:260px;
     background:white;
@@ -240,8 +237,6 @@
     background-color:orange;
 }
 
-
-/* css dich vu */
 .dichvu {
     max-width: 1200px;
     margin: 0 auto 40px auto;
@@ -280,7 +275,6 @@
     color: #777;
 }
 
-/* css footer */
 footer{
     background:rgb(193, 107, 61);
     color:white;

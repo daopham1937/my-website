@@ -33,14 +33,13 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Định dạng cho mỗi nhóm nhập liệu giống trang đăng ký */
 .cot {
     display: flex;
     flex-direction: column; 
     margin-bottom: 15px; 
 }
 
-/* Chỉnh chữ tiêu đề nhỏ */
+/* Chỉnh chữ tiêu đề */
 label {
     font-weight: bold;
     font-size: 14px;
@@ -57,7 +56,7 @@ label {
     font-size: 14px;
     outline: none;
     box-sizing: border-box;
-    transition: all 0.3s ease; /* Hiệu ứng đổi màu mượt mà */
+    transition: all 0.3s ease;
 }
 
 /* Khi người dùng click chuột vào ô nhập liệu sẽ tự phát sáng viền cam giống nhau */
