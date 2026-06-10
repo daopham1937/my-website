@@ -1,4 +1,4 @@
-// Lấy form đăng ký
+
 const registerForm = document.getElementById('dangki');
 const fullnameInput = registerForm.querySelector('input[type="text"]');
 const emailInput = registerForm.querySelector('input[type="email"]');
@@ -39,31 +39,26 @@ registerForm.addEventListener('submit', function(event) {
     const password = passwordInput.value.trim();
     const confirmPassword = confirmPasswordInput.value.trim();
 
-    // Kiểm tra không để trống
     if (!fullname || !email || !password || !confirmPassword) {
         alert('⚠️ Vui lòng điền đầy đủ tất cả thông tin!');
         return;
     }
 
-    // Kiểm tra tên đủ dài
     if (!validateFullname(fullname)) {
         alert('⚠️ Tên phải có ít nhất 3 ký tự!');
         return;
     }
 
-    // Kiểm tra email hợp lệ
     if (!validateEmail(email)) {
         alert('⚠️ Email không hợp lệ! Vui lòng nhập email đúng định dạng.');
         return;
     }
 
-    // Kiểm tra mật khẩu đủ dài
     if (!validatePassword(password)) {
         alert('⚠️ Mật khẩu phải có ít nhất 6 ký tự!');
         return;
     }
 
-    // Kiểm tra confirm password khớp
     if (password !== confirmPassword) {
         alert('❌ Mật khẩu xác nhận không khớp!');
         return;
